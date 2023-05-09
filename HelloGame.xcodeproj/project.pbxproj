@@ -8,15 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		9F89CD552311919200D775AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89CD542311919200D775AC /* AppDelegate.swift */; };
-		9F89CD572311919200D775AC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9F89CD562311919200D775AC /* GameScene.sks */; };
-		9F89CD592311919200D775AC /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9F89CD582311919200D775AC /* Actions.sks */; };
 		9F89CD5B2311919200D775AC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89CD5A2311919200D775AC /* GameScene.swift */; };
 		9F89CD5D2311919200D775AC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89CD5C2311919200D775AC /* GameViewController.swift */; };
 		9F89CD602311919200D775AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F89CD5E2311919200D775AC /* Main.storyboard */; };
-		9F89CD622311919400D775AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F89CD612311919400D775AC /* Assets.xcassets */; };
 		9F89CD652311919400D775AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F89CD632311919400D775AC /* LaunchScreen.storyboard */; };
 		9F89CD702311919400D775AC /* HelloGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89CD6F2311919400D775AC /* HelloGameTests.swift */; };
 		9F89CD7B2311919400D775AC /* HelloGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89CD7A2311919400D775AC /* HelloGameUITests.swift */; };
+		9FE226672311F3A6000AAC8F /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE226662311F3A6000AAC8F /* Settings.swift */; };
+		9FE2266B23132F79000AAC8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE2266A23132F79000AAC8F /* Assets.xcassets */; };
+		9FE2266D2313E45D000AAC8F /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2266C2313E45D000AAC8F /* MenuScene.swift */; };
+		9FE2267423191DD1000AAC8F /* yoo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9FE2267223191DD1000AAC8F /* yoo.wav */; };
+		9FE2267523191DD1000AAC8F /* dinger.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9FE2267323191DD1000AAC8F /* dinger.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,12 +41,9 @@
 /* Begin PBXFileReference section */
 		9F89CD512311919200D775AC /* HelloGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F89CD542311919200D775AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9F89CD562311919200D775AC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		9F89CD582311919200D775AC /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		9F89CD5A2311919200D775AC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		9F89CD5C2311919200D775AC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		9F89CD5F2311919200D775AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9F89CD612311919400D775AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F89CD642311919400D775AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F89CD662311919400D775AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F89CD6B2311919400D775AC /* HelloGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +52,11 @@
 		9F89CD762311919400D775AC /* HelloGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F89CD7A2311919400D775AC /* HelloGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloGameUITests.swift; sourceTree = "<group>"; };
 		9F89CD7C2311919400D775AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FE226662311F3A6000AAC8F /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		9FE2266A23132F79000AAC8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FE2266C2313E45D000AAC8F /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuScene.swift; path = HelloGame/Scenes/MenuScene.swift; sourceTree = SOURCE_ROOT; };
+		9FE2267223191DD1000AAC8F /* yoo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = yoo.wav; path = ../../../../Source/voiceSource/HelloGame/yoo.wav; sourceTree = "<group>"; };
+		9FE2267323191DD1000AAC8F /* dinger.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dinger.wav; path = ../../../../Source/voiceSource/HelloGame/dinger.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,15 +107,13 @@
 		9F89CD532311919200D775AC /* HelloGame */ = {
 			isa = PBXGroup;
 			children = (
-				9F89CD542311919200D775AC /* AppDelegate.swift */,
-				9F89CD562311919200D775AC /* GameScene.sks */,
-				9F89CD582311919200D775AC /* Actions.sks */,
-				9F89CD5A2311919200D775AC /* GameScene.swift */,
-				9F89CD5C2311919200D775AC /* GameViewController.swift */,
-				9F89CD5E2311919200D775AC /* Main.storyboard */,
-				9F89CD612311919400D775AC /* Assets.xcassets */,
-				9F89CD632311919400D775AC /* LaunchScreen.storyboard */,
+				9FE2267323191DD1000AAC8F /* dinger.wav */,
+				9FE2267223191DD1000AAC8F /* yoo.wav */,
 				9F89CD662311919400D775AC /* Info.plist */,
+				9F89CD8B23119A1B00D775AC /* Assets */,
+				9F89CD8A23119A0700D775AC /* Temple */,
+				9F89CD89231199D600D775AC /* Scenes */,
+				9F89CD88231199AD00D775AC /* ViewController */,
 			);
 			path = HelloGame;
 			sourceTree = "<group>";
@@ -132,6 +134,42 @@
 				9F89CD7C2311919400D775AC /* Info.plist */,
 			);
 			path = HelloGameUITests;
+			sourceTree = "<group>";
+		};
+		9F89CD88231199AD00D775AC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9F89CD5C2311919200D775AC /* GameViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9F89CD89231199D600D775AC /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				9F89CD5A2311919200D775AC /* GameScene.swift */,
+				9FE2266C2313E45D000AAC8F /* MenuScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		9F89CD8A23119A0700D775AC /* Temple */ = {
+			isa = PBXGroup;
+			children = (
+				9F89CD542311919200D775AC /* AppDelegate.swift */,
+				9FE226662311F3A6000AAC8F /* Settings.swift */,
+			);
+			path = Temple;
+			sourceTree = "<group>";
+		};
+		9F89CD8B23119A1B00D775AC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9FE2266A23132F79000AAC8F /* Assets.xcassets */,
+				9F89CD632311919400D775AC /* LaunchScreen.storyboard */,
+				9F89CD5E2311919200D775AC /* Main.storyboard */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +235,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1330;
 				ORGANIZATIONNAME = "崔泰毓";
 				TargetAttributes = {
 					9F89CD502311919200D775AC = {
@@ -239,10 +277,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F89CD602311919200D775AC /* Main.storyboard in Resources */,
-				9F89CD572311919200D775AC /* GameScene.sks in Resources */,
-				9F89CD622311919400D775AC /* Assets.xcassets in Resources */,
+				9FE2266B23132F79000AAC8F /* Assets.xcassets in Resources */,
+				9FE2267523191DD1000AAC8F /* dinger.wav in Resources */,
+				9FE2267423191DD1000AAC8F /* yoo.wav in Resources */,
 				9F89CD652311919400D775AC /* LaunchScreen.storyboard in Resources */,
-				9F89CD592311919200D775AC /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +307,8 @@
 			files = (
 				9F89CD5B2311919200D775AC /* GameScene.swift in Sources */,
 				9F89CD5D2311919200D775AC /* GameViewController.swift in Sources */,
+				9FE2266D2313E45D000AAC8F /* MenuScene.swift in Sources */,
+				9FE226672311F3A6000AAC8F /* Settings.swift in Sources */,
 				9F89CD552311919200D775AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +390,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -410,6 +451,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -445,6 +487,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y76WY4666S;
 				INFOPLIST_FILE = HelloGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,6 +506,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y76WY4666S;
 				INFOPLIST_FILE = HelloGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
